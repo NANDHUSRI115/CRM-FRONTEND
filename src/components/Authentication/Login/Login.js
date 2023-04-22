@@ -5,7 +5,7 @@ import API from '../../../url';
 import styles from "./Login.module.css";
 
 const Login = () => {
-	const [data, setData] = useState({ email: "dk44861@gmail.com", password: "ironman2205" });
+	const [data, setData] = useState({ email: "nandhusri115@gmail.com", password: "dcforever" });
 	const [error, setError] = useState(false);
 	const [state, setState] = useState("Login")
 	const navigate = useNavigate();
